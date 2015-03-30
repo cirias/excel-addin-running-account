@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE358578-5EC8-4625-A629-DEDF1D1192D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CtpLibrary</RootNamespace>
+    <AssemblyName>CtpLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAccountEventArgs.cs" />
+    <Compile Include="AddPaymentEventArgs.cs" />
+    <Compile Include="AddTransferEventArgs.cs" />
+    <Compile Include="CommonUI.cs" />
+    <Compile Include="CtpAccountManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtpAccountManage.Designer.cs">
+      <DependentUpon>CtpAccountManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtpAddPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtpAddPayment.Designer.cs">
+      <DependentUpon>CtpAddPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtpAddTransfer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtpAddTransfer.Designer.cs">
+      <DependentUpon>CtpAddTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteAccountEventArgs.cs" />
+    <Compile Include="InitializeEventArgs.cs" />
+    <Compile Include="CtpInitializeWizard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtpInitializeWizard.Designer.cs">
+      <DependentUpon>CtpInitializeWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CtpAccountManage.resx">
+      <DependentUpon>CtpAccountManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtpAddPayment.resx">
+      <DependentUpon>CtpAddPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtpAddTransfer.resx">
+      <DependentUpon>CtpAddTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtpInitializeWizard.resx">
+      <DependentUpon>CtpInitializeWizard.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

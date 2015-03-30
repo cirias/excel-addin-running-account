@@ -1,0 +1,7 @@
+I can't figure out why this function doesn't work. I get a "#VALUE!"
+{=SUM(IF(INDIRECT("收支记录!F2:F"&ROW())=账户信息!C2,INDIRECT("收支记录!C2:C"&ROW()),0))}
+I got a error "#VALUES!".
+
+The functions below works,so...I'm confused.
+{=SUM(INDIRECT("收支记录!C2:C"&ROW()))}
+{=SUM(IF(INDIRECT("收支记录!F2:F10")=账户信息!C2,INDIRECT("收支记录!C2:C10"),0))}

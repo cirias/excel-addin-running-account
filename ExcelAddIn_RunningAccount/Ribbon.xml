@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id="tabMenu" label="流水账">
+                <group id="groupInitialize" label="初始化">
+                    <button id="btnInitializeModel" label="初始化模板" onAction="Button_Click"/>
+                </group>
+				<group id="groupAddEntry" label="记一笔">
+					<button id="btnAddPayment" label="记录收支" onAction="Button_Click"/>
+					<button id="btnAddTransfer" label="记录转账" onAction="Button_Click"/>
+					<button id ="btnCalculateBalances" label="计算余额" onAction="Button_Click"/>
+				</group>
+				<group id="groupAccountManage" label="账户管理">
+					<button id="btnAccountManage" label="添加账户" onAction="Button_Click"/>
+				</group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

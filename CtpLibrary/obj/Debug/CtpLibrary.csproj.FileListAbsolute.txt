@@ -1,0 +1,12 @@
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\bin\Debug\CtpLibrary.dll
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\bin\Debug\CtpLibrary.pdb
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\bin\Debug\CtpLibrary.tlb
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\CtpLibrary.CtpAccountManage.resources
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\CtpLibrary.CtpAddPayment.resources
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\CtpLibrary.CtpAddTransfer.resources
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\CtpLibrary.CtpInitializeWizard.resources
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\GenerateResource.read.1.tlog
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\GenerateResource.write.1.tlog
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\CtpLibrary.dll
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\CtpLibrary\obj\Debug\CtpLibrary.pdb

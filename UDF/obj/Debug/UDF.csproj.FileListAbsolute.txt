@@ -1,0 +1,6 @@
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\UDF\bin\Debug\UDF.dll
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\UDF\bin\Debug\UDF.pdb
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\UDF\bin\Debug\UDF.tlb
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\UDF\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\UDF\obj\Debug\UDF.dll
+E:\MyDocumments\ProjectVSTO\ExcelAddIn_RunningAccount\UDF\obj\Debug\UDF.pdb
